@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!--my css-->
     <link rel="stylesheet" href="shopStyle.css">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 
-<body class="bg-success">
+<body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             
@@ -43,7 +45,7 @@
                     </li>
                     <!-- Sort Dropdown -->
                     <li class="nav-item dropdown">
-                        <button class="btn btn-primary dropdown-toggle" type="button" id="categoryDropdown"
+                        <button class="btn   dropdown-toggle" type="button" id="categoryDropdown"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Sort
                         </button>
@@ -104,9 +106,9 @@
                             <p>500.00 g</p>
                         </div>
                         <p class="card-text">Price: Rs.180.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="tomatoModal"
+                        <button type="button" class="btn add-to-cart cart-button" data-product-id="tomatoModal"
                             data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
+                        <button type="button" class="btn buy-now cart-button">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -143,7 +145,7 @@
                         </div>
 
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="tomatoModal"
+                            <button type="button" class="btn   add-to-cart" data-product-id="tomatoModal"
                                 data-bs-dismiss="modal">Add to Cart</button>
                             <button type="button" class="btn btn-success">Buy Now</button>
                         </div>
@@ -177,9 +179,9 @@
                             <p>500.00 g</p>
                         </div>
                         <p class="card-text">Price: Rs.180.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="tomatoModal"
+                        <button type="button" class="btn   add-to-cart cart-button" data-product-id="tomatoModal"
                             data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
+                        <button type="button" class="btn buy-now cart-button">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -216,9 +218,9 @@
                         </div>
 
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="tomatoModal"
+                            <button type="button" class="btn   add-to-cart cart-button" data-product-id="tomatoModal"
                                 data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
+                            <button type="button" class="btn buy-now cart-button">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -238,9 +240,9 @@
                             <p>500.00 g</p>
                         </div>
                         <p class="card-text">Price: Rs.175.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="bigonionModal"
+                        <button type="button" class="btn   add-to-cart cart-button" data-product-id="bigonionModal"
                             data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
+                        <button type="button" class="btn buy-now cart-button">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -277,7 +279,7 @@
                         </div>
 
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="bigonionModal"
+                            <button type="button" class="btn   add-to-cart" data-product-id="bigonionModal"
                                 data-bs-dismiss="modal">Add to Cart</button>
                             <button type="button" class="btn btn-success">Buy Now</button>
                         </div>
@@ -299,9 +301,9 @@
                             <p>3.00 pcs</p>
                         </div>
                         <p class="card-text">Price: Rs.597.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="coconutModal"
+                        <button type="button" class="btn   add-to-cart cart-button" data-product-id="coconutModal"
                             data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
+                        <button type="button" class="btn buy-now cart-button">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -338,7 +340,7 @@
                         </div>
 
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="coconutModal"
+                            <button type="button" class="btn   add-to-cart" data-product-id="coconutModal"
                                 data-bs-dismiss="modal">Add to Cart</button>
                             <button type="button" class="btn btn-success">Buy Now</button>
                         </div>
@@ -360,538 +362,9 @@
                             <p>500.00 g</p>
                         </div>
                         <p class="card-text">Price: Rs.210.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="carrotModal"
+                        <button type="button" class="btn   add-to-cart cart-button" data-product-id="carrotModal"
                             data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="carrotModal" tabindex="-1" aria-labelledby="carrotModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="carrotModalLabel">Carrot Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/carrot.jpg" class="img-fluid" alt="carrot">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Carrot</h4>
-                                    <p><strong>Seller:</strong> ffjf fhffhd</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 500.00 g</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.210.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="carrotModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="vegetables" data-name="potatoes">
-                <div class="card">
-                    <img src="Images/potatoes.jpg" class="card-img-top" alt="potatoes" data-toggle="modal"
-                        data-target="#potatoesModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u2.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">John Smith</button>
-                        </div>
-                        <h5 class="card-title">Potatoes</h5>
-                        <div>
-                            <p>500.00 g</p>
-                        </div>
-                        <p class="card-text">Price: Rs.180.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="potatoesModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="potatoesModal" tabindex="-1" aria-labelledby="potatoesModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="potatoesModalLabel">Potatoes Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/potatoes.jpg" class="img-fluid" alt="potatoes">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Potatoes</h4>
-                                    <p><strong>Seller:</strong> John Smith</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 500.00 g</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.180.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="potatoesModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="vegetables" data-name="greenchillies">
-                <div class="card">
-                    <img src="Images/green chillies.jpg" class="card-img-top" alt="greenchillies" data-toggle="modal"
-                        data-target="#greenchilliesModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u2.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">John Sghfhd</button>
-                        </div>
-                        <h5 class="card-title">Green Chillies</h5>
-                        <div>
-                            <p>100.00 g</p>
-                        </div>
-                        <p class="card-text">Price: Rs.129.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="greenchilliesModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="greenchilliesModal" tabindex="-1" aria-labelledby="greenchilliesModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="greenchilliesModalLabel">Green Chillies Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/green chillies.jpg" class="img-fluid" alt="greenchillies">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Green Chillies</h4>
-                                    <p><strong>Seller:</strong> John Sghfhd</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 100.00 g</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.129.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart"
-                                data-product-id="greenchilliesModal" data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="vegetables" data-name="beetroot">
-                <div class="card">
-                    <img src="Images/beetroot.jpg" class="card-img-top" alt="beetroot" data-toggle="modal"
-                        data-target="#beetrootModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u2.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">Johnff Smith</button>
-                        </div>
-                        <h5 class="card-title">Beetroot</h5>
-                        <div>
-                            <p>250.00 g</p>
-                        </div>
-                        <p class="card-text">Price: Rs.155.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="beetrootModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="beetrootModal" tabindex="-1" aria-labelledby="beetrootModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="beetrootModalLabel">Beetroot Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/beetroot.jpg" class="img-fluid" alt="beetroot">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Bettroot</h5>
-                                        <p><strong>Seller:</strong> Johnff Smith</p>
-                                        <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                        <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                        <p><strong>Weight:</strong> 250.00 g</p>
-                                        <p class="card-text"><strong>Price:</strong> Rs.155.00</p>
-                                        <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="beetrootModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="vegetables" data-name="greenbeans">
-                <div class="card">
-                    <img src="Images/green beans.jpg" class="card-img-top" alt="greenbeans" data-toggle="modal"
-                        data-target="#greenbeansModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u1.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">John Smjgtith</button>
-                        </div>
-                        <h5 class="card-title">Green Beans</h5>
-                        <div>
-                            <p>250.00 g</p>
-                        </div>
-                        <p class="card-text">Price: Rs.178.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="greenbeansModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="greenbeansModal" tabindex="-1" aria-labelledby="greenbeansModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="greenbeansModalLabel">Green Beans Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/green beans.jpg" class="img-fluid" alt="greenbeans">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Green Beans</h4>
-                                    <p><strong>Seller:</strong> John Smjgtith</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 250.00 g</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.178.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="greenbeansModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="vegetables" data-name="pumpkin">
-                <div class="card">
-                    <img src="Images/pumpkin.jpg" class="card-img-top" alt="pumpkin" data-toggle="modal"
-                        data-target="#pumpkinModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u2.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">Johffn Smith</button>
-                        </div>
-                        <h5 class="card-title">Pumpkin</h5>
-                        <div>
-                            <p>500.00 g</p>
-                        </div>
-                        <p class="card-text">Price: Rs.50.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="pumpkinModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="pumpkinModal" tabindex="-1" aria-labelledby="pumpkinModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="pumpkinModalLabel">Pumpkin Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/pumpkin.jpg" class="img-fluid" alt="pumpkin">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Pumpkin</h4>
-                                    <p><strong>Seller:</strong> Johffn Smith</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 500.00 g</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.50.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="pumpkinModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="vegetables" data-name="brinjal">
-                <div class="card">
-                    <img src="Images/bringle.jpg" class="card-img-top" alt="brinjal" data-toggle="modal"
-                        data-target="#brinjalModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u1.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">Jogghn Smjgtith</button>
-                        </div>
-                        <h5 class="card-title">Brinjal</h5>
-                        <div>
-                            <p>350.00 g</p>
-                        </div>
-                        <p class="card-text">Price: Rs.140.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="brinjalModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="brinjalModal" tabindex="-1" aria-labelledby="brinjalModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="brinjalModalLabel">Brinjal Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/bringle.jpg" class="img-fluid" alt="brinjal">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Brinjal</h4>
-                                    <p><strong>Seller:</strong> Jogghn Smjgtith</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 350.00 g</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.140.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="brinjalModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="vegetables" data-name="ladiesfingers">
-                <div class="card">
-                    <img src="Images/ladies fingers.jpg" class="card-img-top" alt="ladiesfingers" data-toggle="modal"
-                        data-target="#ladiesfingersModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u1.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">Johfffn jgtith</button>
-                        </div>
-                        <h5 class="card-title">Ladies Fingers</h5>
-                        <div>
-                            <p>250.00 g</p>
-                        </div>
-                        <p class="card-text">Price: Rs.63.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="ladiesfingersModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="ladiesfingersModal" tabindex="-1" aria-labelledby="ladiesfingersModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="ladiesfingersModalLabel">Ladies Fingers Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/ladies fingers.jpg" class="img-fluid" alt="ladiesfingers">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Ladies Fingers</h4>
-                                    <p><strong>Seller:</strong> Johfffn jgtith</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 250.00 g</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.63.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart"
-                                data-product-id="ladiesfingersModal" data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="vegetables" data-name="cucumber">
-                <div class="card">
-                    <img src="Images/cucumber.jpg" class="card-img-top" alt="cucumber" data-toggle="modal"
-                        data-target="#cucumberModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u1.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">Johfrn Smjgth</button>
-                        </div>
-                        <h5 class="card-title">Cucumber</h5>
-                        <div>
-                            <p>400.00 g</p>
-                        </div>
-                        <p class="card-text">Price: Rs.72.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="cucumberModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="cucumberModal" tabindex="-1" aria-labelledby="cucumberModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="cucumberModalLabel">Cucumber Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/cucumber.jpg" class="img-fluid" alt="cucumber">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Cucumber</h4>
-                                    <p><strong>Seller:</strong> Johfrn Smjgth</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 400.00 g</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.72.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="cucumberModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
+                        <button type="button" class="btn buy-now cart-button">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -928,9 +401,9 @@
                             <p>1.25 kg</p>
                         </div>
                         <p class="card-text">Price: Rs.138.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="papayaModal"
+                        <button type="button" class="btn   add-to-cart cart-button" data-product-id="papayaModal"
                             data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
+                        <button type="button" class="btn buy-now cart-button">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -967,9 +440,9 @@
                         </div>
 
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="papayaModal"
+                            <button type="button" class="btn   add-to-cart cart-button" data-product-id="papayaModal"
                                 data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
+                            <button type="button" class="btn buy-now cart-button">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -989,9 +462,9 @@
                             <p>500.00 g</p>
                         </div>
                         <p class="card-text">Price: Rs.120.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="kolikuttuModal"
+                        <button type="button" class="btn   add-to-cart cart-button" data-product-id="kolikuttuModal"
                             data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
+                        <button type="button" class="btn buy-now cart-button">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -1028,9 +501,9 @@
                         </div>
 
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="kolikuttuModal"
+                            <button type="button" class="btn   add-to-cart cart-button" data-product-id="kolikuttuModal"
                                 data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
+                            <button type="button" class="btn buy-now cart-button">Buy Now</button>
                         </div>
 
                     </div>
@@ -1051,610 +524,14 @@
                             <p>2.00 kg</p>
                         </div>
                         <p class="card-text">Price: Rs.600.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="sweetmelonModal"
+                        <button type="button" class="btn   add-to-cart cart-button" data-product-id="sweetmelonModal"
                             data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
+                        <button type="button" class="btn buy-now cart-button">Buy Now</button>
                     </div>
                 </div>
             </div>
 
-            <!-- Product Modal -->
-            <div class="modal fade" id="sweetmelonModal" tabindex="-1" aria-labelledby="sweetmelonModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="sweetmelonModalLabel">Sweet Melon Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
 
-                                <div class="col-md-6">
-                                    <img src="Images/sweet melon.jpg" class="img-fluid" alt="sweetmelon">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Sweet Melon</h4>
-                                    <p><strong>Seller:</strong> John Smggith</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 2.00 kg</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.600.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="sweetmelonModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="fruits" data-name="sourplantain">
-                <div class="card">
-                    <img src="Images/sour plantain.jpg" class="card-img-top" alt="sourplantain" data-toggle="modal"
-                        data-target="#sourplantainModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u2.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">John Smith</button>
-                        </div>
-                        <h5 class="card-title">Sour Plantain</h5>
-                        <div>
-                            <p>500.00 g</p>
-                        </div>
-                        <p class="card-text">Price: Rs.95.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="sourplantainModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="sourplantainModal" tabindex="-1" aria-labelledby="sourplantainModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="sourplantainModalLabel">Sour Plantain Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/sour plantain.jpg" class="img-fluid" alt="sourplantain">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Sour Plantain</h4>
-                                    <p><strong>Seller:</strong> John Smith</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 500.00 g</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.95.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart"
-                                data-product-id="sourplantainModal" data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="fruits" data-name="guava">
-                <div class="card">
-                    <img src="Images/guava.jpg" class="card-img-top" alt="guava" data-toggle="modal"
-                        data-target="#guavaModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u1.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">Jhhohn Smith</button>
-                        </div>
-                        <h5 class="card-title">Guava</h5>
-                        <div>
-                            <p>1.00 kg</p>
-                        </div>
-                        <p class="card-text">Price: Rs.360.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="guavaModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="guavaModal" tabindex="-1" aria-labelledby="guavaModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="guavaModalLabel">Guava Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/guava.jpg" class="img-fluid" alt="guava">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Guava</h4>
-                                    <p><strong>Seller:</strong> Jhhohn Smith</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 1.00 kg</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.360.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="guavaModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="fruits" data-name="mango">
-                <div class="card">
-                    <img src="Images/mango.jpg" class="card-img-top" alt="mango" data-toggle="modal"
-                        data-target="#mangoModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u2.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">Joffhn Smith</button>
-                        </div>
-                        <h5 class="card-title">Mango</h5>
-                        <div>
-                            <p>1.00 kg</p>
-                        </div>
-                        <p class="card-text">Price: Rs.680.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="mangoModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="mangoModal" tabindex="-1" aria-labelledby="mangoModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="mangoModalLabel">Mango Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/mango.jpg" class="img-fluid" alt="mango">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Mango</h4>
-                                    <p><strong>Seller:</strong> Joffhn Smith</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 1.00 kg</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.680.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="mangoModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="fruits" data-name="redapple">
-                <div class="card">
-                    <img src="Images/red apple.jpg" class="card-img-top" alt="redapple" data-toggle="modal"
-                        data-target="#redappleModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u1.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">Johgn Smith</button>
-                        </div>
-                        <h5 class="card-title">Red Apple</h5>
-                        <div>
-                            <p>600.00 g</p>
-                        </div>
-                        <p class="card-text">Price: Rs.1002.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="redappleModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="redappleModal" tabindex="-1" aria-labelledby="redappleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="productModalLabel">Red Apple Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/red apple.jpg" class="img-fluid" alt="redapple">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Red Apple</h4>
-                                    <p><strong>Seller:</strong> Johgn Smith</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 600.00 g</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.1002.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="redappleModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="fruits" data-name="greenapple">
-                <div class="card">
-                    <img src="Images/green apple.jpg" class="card-img-top" alt="greenapple" data-toggle="modal"
-                        data-target="#greenappleModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u1.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">John Smdjsith</button>
-                        </div>
-                        <h5 class="card-title">Green Apple</h5>
-                        <div>
-                            <p>700.00 g</p>
-                        </div>
-                        <p class="card-text">Price: Rs.1362.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="greenappleModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="greenappleModal" tabindex="-1" aria-labelledby="greenappleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="productModalLabel">Green Apple Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/green apple.jpg" class="img-fluid" alt="greenapple">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Green Apple</h4>
-                                    <p><strong>Seller:</strong> John Smdjsith</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 700.00 g</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.1362.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="greenappleModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="fruits" data-name="panidodam">
-                <div class="card">
-                    <img src="Images/pani dodam.jpg" class="card-img-top" alt="panidodam" data-toggle="modal"
-                        data-target="#panidodamModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u1.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">John Shhmith</button>
-                        </div>
-                        <h5 class="card-title">Pani Dodam</h5>
-                        <div>
-                            <p>500.00 g</p>
-                        </div>
-                        <p class="card-text">Price: Rs.420.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="panidodamModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="panidodamModal" tabindex="-1" aria-labelledby="panidodamModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="panidodamModalLabel">Pani Dodam Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/pani dodam.jpg" class="img-fluid" alt="panidodam">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Pani Dodam</h4>
-                                    <p><strong>Seller:</strong> John Shhmith</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 500.00 g</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.420.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="panidodamModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="fruits" data-name="nelli">
-                <div class="card">
-                    <img src="Images/nelli.jpg" class="card-img-top" alt="nelli" data-toggle="modal"
-                        data-target="#nelliModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u2.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">John Smith</button>
-                        </div>
-                        <h5 class="card-title">Nelli</h5>
-                        <div>
-                            <p>200.00 g</p>
-                        </div>
-                        <p class="card-text">Price: Rs.126.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="nelliModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="nelliModal" tabindex="-1" aria-labelledby="nelliModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="nelliModalLabel">Nelli Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/nelli.jpg" class="img-fluid" alt="nelli">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Nelli</h4>
-                                    <p><strong>Seller:</strong> John Smith</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 200.00 g</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.126.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="nelliModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 product-card" data-category="fruits" data-name="soursop">
-                <div class="card">
-                    <img src="Images/soursop.jpg" class="card-img-top" alt="soursop" data-toggle="modal"
-                        data-target="#soursopModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u1.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">John Smifth</button>
-                        </div>
-                        <h5 class="card-title">Soursop</h5>
-                        <div>
-                            <p>1.00 kg</p>
-                        </div>
-                        <p class="card-text">Price: Rs.530.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="soursopModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="modal fade" id="soursopModal" tabindex="-1" aria-labelledby="soursopModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="soursopModalLabel">Soursop Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <img src="Images/soursop.jpg" class="img-fluid" alt="Soursop">
-                                </div>
-
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Soursop</h4>
-                                    <p><strong>Seller:</strong> John Smifth</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle.</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 1.00 kg</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.530.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="soursopModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- Product Modal -->
-            <div class="col-md-3 product-card" data-category="fruits" data-name="pineapple">
-                <div class="card">
-                    <img src="Images/pineapple.jpg" class="card-img-top" alt="pineapple" data-toggle="modal"
-                        data-target="#pineappleModal">
-                    <div class="card-body">
-                        <div class="card-body-user">
-                            <img src="Images/u1.jpeg" alt="User Image" class="user-img">
-                            <button class="user-name">John Smitvh</button>
-                        </div>
-                        <h5 class="card-title">Pineapple</h5>
-                        <div>
-                            <p>1.25 kg</p>
-                        </div>
-                        <p class="card-text">Price: Rs.488.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="pineappleModal"
-                            data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="modal fade" id="pineappleModal" tabindex="-1" aria-labelledby="pineappleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h3 class="modal-title" id="pineappleModalLabel">Pineapple Details</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-
-                        <!-- Modal Body -->
-                        <div class="modal-body">
-                            <div class="row">
-                                <!-- Image Section -->
-                                <div class="col-md-6">
-                                    <img src="Images/pineapple.jpg" class="img-fluid" alt="Pineapple">
-                                </div>
-
-                                <!-- Product Details Section -->
-                                <div class="col-md-6">
-                                    <h4 class="card-title">Pineapple</h4>
-                                    <p><strong>Seller:</strong> John Smith</p>
-                                    <p><strong>Seller Address:</strong> No.205, Galle Rd, Galle</p>
-                                    <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4.5)</p>
-                                    <p><strong>Weight:</strong> 1.25 kg</p>
-                                    <p class="card-text"><strong>Price:</strong> Rs.488.00</p>
-                                    <p><strong>Shipping:</strong> Free</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Modal Footer -->
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="pineappleModal"
-                                data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
         </div>
     </div>
@@ -1683,9 +560,9 @@
                             <p>500.00 g</p>
                         </div>
                         <p class="card-text">Price: Rs.180.00</p>
-                        <button type="button" class="btn btn-primary add-to-cart" data-product-id="tomatoModal"
+                        <button type="button" class="btn   add-to-cart" data-product-id="tomatoModal"
                             data-bs-dismiss="modal">Add to Cart</button>
-                        <button type="button" class="btn btn-success">Buy Now</button>
+                        <button type="button" class="btn buy-now cart-button">Buy Now</button>
                     </div>
                 </div>
             </div>
@@ -1722,9 +599,9 @@
                         </div>
 
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary add-to-cart" data-product-id="tomatoModal"
+                            <button type="button" class="btn   add-to-cart cart-button" data-product-id="tomatoModal"
                                 data-bs-dismiss="modal">Add to Cart</button>
-                            <button type="button" class="btn btn-success">Buy Now</button>
+                            <button type="button" class="btn buy-now cart-button">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -1732,9 +609,12 @@
         </div>
     </div>
     <!-- Footer -->
-    <footer class="bg-light text-center py-3">
-        <p>© 2025 Shop. All rights reserved.</p>
-    </footer>
+    <!--footer section starts-->
+    <section class="footer">
+        
+    
+    </section>
+    <!--footer section ends-->
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -1743,7 +623,9 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> -->
 
     <script src="shopScript.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
