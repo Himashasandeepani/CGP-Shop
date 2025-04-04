@@ -72,12 +72,20 @@
             });
 
             // Add event listeners to filter buttons
-            filterButtons.forEach(button => {
-                button.addEventListener("click", () => {
-                    const category = button.getAttribute("data-category");
-                    filterProducts(category);
-                });
-            });
+           // Add event listeners to filter buttons with selected highlight
+filterButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        const category = button.getAttribute("data-category");
+        filterProducts(category);
+
+        // Remove green highlight from all buttons
+        filterButtons.forEach(btn => btn.classList.remove("selected-category"));
+
+        // Add green highlight to the clicked one
+        button.classList.add("selected-category");
+    });
+});
+
 
             // Show all products by default
             filterProducts("all");

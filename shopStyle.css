@@ -102,6 +102,17 @@
     margin-top: 10px;
     padding: 10px 20px 10px 20px;
 }
+
+.selected-category {
+    background-color: #00ff73 !important; /* Bootstrap green */
+    color: white !important;
+}
+
+.dropdown-menu
+{
+    --bs-dropdown-link-active-bg: #00ff00;
+}
+
 /* User section */
 .card-body-user {
     display: flex;
