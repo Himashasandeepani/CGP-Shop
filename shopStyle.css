@@ -4,11 +4,11 @@
 }
 
 .hero-section {
-    background-image: url('Images/bannerproduct.png'); /* Replace with your actual image path */
+    background-image: url('Images/OrganicShop.png'); /* Replace with your actual image path */
     background-size: cover; /* Ensures the image covers the entire section */
-    background-position: center; /* Centers the image */
+    background-position: bottom; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    height: 30vh;
+    height: 1300px;
     margin-left: -100px; /* Set the height to 50% of the viewport height */
  /* Ensure the banner spans the full width */
   }
@@ -175,4 +175,14 @@ footer {
 .cart-image {
     width: 50px;
     height: 50px;
+}
+
+.search-button:hover{
+    background-color: #00ff00;
+    color: #fff;
+    border: .1rem solid black;
+}
+
+.btn{
+    border: .1rem solid black;
 }
